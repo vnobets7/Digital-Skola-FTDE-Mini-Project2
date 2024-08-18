@@ -1,3 +1,5 @@
+![image](https://github.com/vnobets7/Digital-Skola-FTDE-Mini-Project2/blob/main/images/dbt-signature_tm.png)
+
 # Digital-Skola-FTDE-Mini-Project2
 ## Deskripsi Mini-Project2
 Bagian dari tugas Fast-Track homework, yang merupakan tugas individual. Membuat ELT dari data pipeline proses menggunakan dbt/dbt-core.
@@ -9,11 +11,12 @@ Bagian dari tugas Fast-Track homework, yang merupakan tugas individual. Membuat 
 - Dbeaver
 
 ##  Simple Project Architecture
-Berikut ini merupakan ilustrasi dari project yang dibuat.
+Berikut ini merupakan ilustrasi dari project yang dibuat. <br>
+![Project Architecture](https://github.com/vnobets7/Digital-Skola-FTDE-Mini-Project2/blob/main/images/Project-architecture.png)
 
 ## Getting Started
 1. Install dbt-core [Check dbt official web here](https://docs.getdbt.com/docs/installation)
-2. Install dbt-postgres
+2. Install dbt-postgres [Check dbt official web here](https://docs.getdbt.com/docs/core/pip-install)
 3. Clone this repository
 4. Change to the project directory 
    ```
@@ -58,6 +61,14 @@ Berikut ini merupakan ilustrasi dari project yang dibuat.
    ```
 
 ## Lineage Graph
+- Data graph untuk data mart - total_revenue. <br>
+![total_revenue](https://github.com/vnobets7/Digital-Skola-FTDE-Mini-Project2/blob/main/images/total_revenue_data-lineage.PNG)
+<br>
+- Data graph untuk data mart - best_selling_film. <br>
+![best_selling_film](https://github.com/vnobets7/Digital-Skola-FTDE-Mini-Project2/blob/main/images/best_selling_film_data-lineage.PNG)
+<br>
+- Data graph untuk data mart - most_frequent_actor. <br>
+![most_frequent_actor](https://github.com/vnobets7/Digital-Skola-FTDE-Mini-Project2/blob/main/images/most_frequent_actor_data-lineage.PNG)
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
