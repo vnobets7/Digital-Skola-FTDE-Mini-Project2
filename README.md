@@ -2,7 +2,7 @@
 
 # Digital-Skola-FTDE-Mini-Project2
 ## Deskripsi Mini-Project2
-Bagian dari tugas Fast-Track homework, yang merupakan tugas individual. Membuat ELT dari data pipeline proses menggunakan dbt/dbt-core.
+Bagian dari tugas Fast-Track homework, yang merupakan tugas individual. Membuat (E)LT dari data pipeline proses menggunakan dbt/dbt-core.
 
 ## Data stack
 - Postgres (data warehouse)
@@ -61,15 +61,13 @@ Berikut ini merupakan ilustrasi dari project yang dibuat. <br>
    ```
 
 ## Lineage Graph
-- Data graph untuk data mart - total_revenue. <br>
+### Data graph untuk data mart -> total_revenue
 ![total_revenue](https://github.com/vnobets7/Digital-Skola-FTDE-Mini-Project2/blob/main/images/total_revenue_data-lineage.PNG)
-<br>
-- Data graph untuk data mart - best_selling_film. <br>
+### Data graph untuk data mart -> best_selling_film
 ![best_selling_film](https://github.com/vnobets7/Digital-Skola-FTDE-Mini-Project2/blob/main/images/best_selling_film_data-lineage.PNG)
-<br>
-- Data graph untuk data mart - most_frequent_actor. <br>
+### Data graph untuk data mart -> most_frequent_actor
 ![most_frequent_actor](https://github.com/vnobets7/Digital-Skola-FTDE-Mini-Project2/blob/main/images/most_frequent_actor_data-lineage.PNG)
-<br>
+
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
