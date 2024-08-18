@@ -25,22 +25,14 @@ Berikut ini merupakan ilustrasi dari project yang dibuat. <br>
 5. Start docker engine (docker desktop)
 6. Run this docker command (I'm assumed you already have build docker images for postgres)
    ```
-   docker run --name postgres-test -e PGDATA=/var/lib/postgresql/data -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 5433:5432 -v ./dvdrental:/dvdrental postgres-test:12
-   ```
-   <br>
-   ```
+   docker run --name postgres-test -e PGDATA=/var/lib/postgresql/data -e POSTGRES_PASSWORD=.... -e POSTGRES_USER=.... -e POSTGRES_DB=.... -p 5433:5432 -v ./dvdrental:/dvdrental postgres-test:12
+   ----------------------------
    docker exec -it postgres-test bash
-   ```
-   <br>
-   ```
+   ----------------------------
    docker cp dvdrental postgres-test:12/
-   ```
-   <br>
-   ```
-   docker run --name postgres-test -e PGDATA=/var/lib/postgresql/data -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 5433:5432 -v ./dvdrental:/dvdrental -v dbt-postgres:/var/lib/postgresql/data -d postgres-test:12
-   ```
-   <br>
-   ```
+   ----------------------------
+   docker run --name postgres-test -e PGDATA=/var/lib/postgresql/data -e POSTGRES_PASSWORD=.... -e POSTGRES_USER=.... -e POSTGRES_DB=... -p 5433:5432 -v ./dvdrental:/dvdrental -v dbt-postgres:/var/lib/postgresql/data -d postgres-test:12
+   ----------------------------
    docker start postgres-test/59bf...
    ```
 7. To Ensure your project is setup correct, run this command on terminal:
