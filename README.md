@@ -69,7 +69,7 @@ Berikut ini merupakan ilustrasi dari project yang dibuat. <br>
 <br>
 - Data graph untuk data mart - most_frequent_actor. <br>
 ![most_frequent_actor](https://github.com/vnobets7/Digital-Skola-FTDE-Mini-Project2/blob/main/images/most_frequent_actor_data-lineage.PNG)
-
+<br>
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
